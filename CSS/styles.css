@@ -204,6 +204,7 @@ a {
   color: var(--mostly-used-color);
 }
 .what-we-doing-img {
+  margin: 0px;
   padding: 0px;
   width: 1200px;
   display: flex;
@@ -254,18 +255,25 @@ a {
   color: var(--navigation-link-focus);
 }
 .our-team {
+  margin: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
   /* text-align: center; -Для 3-го ДЗ */
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
+  text-align: center;
 }
 .our-team-section {
   width: 1600px;
   height: 648px;
   left: 0px;
   background: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
 }
 .each-of-our-team {
   font-weight: 500;
@@ -315,20 +323,27 @@ a {
   letter-spacing: 0.03em;
   color: var(--paragraph-text);
 }
-.personal-cards {
-  /* outline: 2px green; */
-  /* background-color: green; */
-}
 .card-personal-item {
   width: 270px;
   height: 368px;
-  left: 215px;
-
+  /* left: 215px; */
   background: var(--claer-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  outline: 1px solid blue;
 }
 .card-personal {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  width: 1200px;
+  padding: 0px;
+  margin: 0px;
   display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* outline: 1px solid tomato; */
 }
