@@ -219,6 +219,8 @@ a {
   left: 0px;
   top: 2097px;
   background: var(--hero-footer-background);
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo-word-footer {
   font-family: Raleway;
