@@ -323,13 +323,7 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--mostly-used-color);
-}
-.kind-of-activity {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.03em;
-  color: var(--paragraph-text);
+  margin: 0px;
 }
 .card-personal-item {
   width: 270px;
@@ -370,12 +364,15 @@ a {
 }
 .button-list {
   padding: 0px;
+  margin: 0px;
+  margin-top: 94px;
   margin-left: auto;
   margin-right: auto;
   width: 611px;
   height: 54px;
   display: flex;
   justify-content: space-between;
+  /* outline: 1px solid red; */
 }
 .btn1 {
   width: 73px;
@@ -407,13 +404,42 @@ a {
   left: 976px;
   top: 174px;
 }
-.line-after-header {
-  margin: 0px;
+.cards-of-porfolio {
+  display: flex;
+  flex-wrap: wrap;
+  /* outline: 1px solid red; */
   padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  margin-top: 34px;
+  margin-bottom: 64px;
+}
+.each-card {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+  height: 406px;
+}
+.tex-of-cerds-container {
+  margin: 0px;
+  padding: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.imgs {
+  display: block;
+}
+.kind-of-activity {
+  margin: 0px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-text);
+  margin-top: 4px;
+}
+.header {
+  border-bottom: 1px solid #ececec;
   width: 1600px;
-  height: 1px;
-  background-color: #ececec;
   margin-left: auto;
   margin-right: auto;
-  border: 0px;
 }
