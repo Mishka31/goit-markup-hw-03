@@ -87,7 +87,7 @@ a {
 .mail-link-header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.141;
   letter-spacing: 0.02em;
   color: var(--links-header);
 }
@@ -407,6 +407,13 @@ a {
   left: 976px;
   top: 174px;
 }
-.header {
-  border: 1px solid #251414;
+.line-after-header {
+  margin: 0px;
+  padding: 0px;
+  width: 1600px;
+  height: 1px;
+  background-color: #ececec;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px;
 }
