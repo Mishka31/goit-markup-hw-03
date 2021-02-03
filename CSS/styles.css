@@ -379,30 +379,35 @@ a {
   height: 38px;
   left: 495px;
   top: 174px;
+  cursor: pointer;
 }
 .btn2 {
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
+  cursor: pointer;
 }
 .btn3 {
   width: 145px;
   height: 38px;
   left: 712px;
   top: 174px;
+  cursor: pointer;
 }
 .btn4 {
   width: 103px;
   height: 38px;
   left: 865px;
   top: 174px;
+  cursor: pointer;
 }
 .btn5 {
   width: 130px;
   height: 38px;
   left: 976px;
   top: 174px;
+  cursor: pointer;
 }
 .cards-of-porfolio {
   display: flex;
