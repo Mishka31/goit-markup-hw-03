@@ -281,18 +281,22 @@ a {
 .each-of-our-team {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.187;
-  /* text-align: center; -Для 3-й ДЗ*/
+  line-height: 1.171;
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 .profession {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.187;
-  /* text-align: center; - Для 3-го ДЗ*/
+  line-height: 1.171;
   letter-spacing: 0.03em;
   color: var(--paragraph-text);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .btn-nav-portfolio {
   font-weight: 500;
