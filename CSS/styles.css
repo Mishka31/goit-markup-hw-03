@@ -114,14 +114,14 @@ a {
 }
 .hero-background {
   height: 600px;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   left: 0px;
   top: 80px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images-main/background-hero.png);
+  /* background-image: url(../images-main/background-hero.png); */
   background-size: cover;
-  /* background: var(--hero-footer-background); */
+  background: var(--hero-footer-background);
   text-align: center;
   padding-top: 200px;
 }
@@ -348,7 +348,6 @@ a {
   margin-right: auto;
   margin-left: auto;
   padding: 0px;
-  width: 1200px;
   padding: 0px;
   margin: 0px;
   display: flex;
